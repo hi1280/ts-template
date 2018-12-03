@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 export function main(message: string) {
   console.log(`${message}`);
   return `Hello ${message}`;
