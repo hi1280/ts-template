@@ -14,7 +14,11 @@
     }
   },
   "lint-staged": {
-    "*.ts": ["prettier --write", "npm run lint", "git add"]
+    "*.ts": [
+      "prettier --write",
+      "npm run lint --",
+      "git add"
+    ]
   },
   "devDependencies": {
     "@types/mocha": "^5.2.5",
